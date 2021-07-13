@@ -35,10 +35,15 @@ div{ color: rgb(49, 45, 45);
 button{width: 35px;
     height: 30px;
     color: white;
-background-color: aquamarine;
+background-color: rgba(152, 165, 162, 0.945);
 position: absolute;
 right: 15px;
 top: 10px;
+border: none;
+border-radius: 10px;
 
 }
+i{font-size: 25px;
+    transform: rotate(180deg);
+transition: transform 0.5s;}
 
