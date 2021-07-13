@@ -1,0 +1,44 @@
+*{box-sizing: border-box;}
+
+body{display: flex;
+  
+    justify-content: center;
+  align-items: center;
+}
+
+#conteiner{width: 600px;
+    
+    align-items: center;
+    background-color: rgb(120, 224, 224);
+    
+    position: relative;
+    overflow: hidden;
+border-radius: 10px;
+padding: 25px;
+transition: height 0.5s;
+
+
+}
+
+h1{ width: 90%;
+color: white;
+
+border-bottom: 2px solid gray;
+
+
+}
+
+div{ color: rgb(49, 45, 45);
+
+}
+
+button{width: 35px;
+    height: 30px;
+    color: white;
+background-color: aquamarine;
+position: absolute;
+right: 15px;
+top: 10px;
+
+}
+
